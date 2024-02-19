@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4ADB942B83C43600399811 /* imranApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4ADB932B83C43600399811 /* imranApp.swift */; };
+		EF4ADB962B83C43600399811 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4ADB952B83C43600399811 /* ContentView.swift */; };
+		EF4ADB982B83C43600399811 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4ADB972B83C43600399811 /* Item.swift */; };
+		EF4ADB9A2B83C43800399811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4ADB992B83C43800399811 /* Assets.xcassets */; };
+		EF4ADB9E2B83C43800399811 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4ADB9D2B83C43800399811 /* Preview Assets.xcassets */; };
+		EF4ADBA82B83C43800399811 /* imranTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4ADBA72B83C43800399811 /* imranTests.swift */; };
+		EF4ADBB22B83C43800399811 /* imranUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4ADBB12B83C43800399811 /* imranUITests.swift */; };
+		EF4ADBB42B83C43800399811 /* imranUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4ADBB32B83C43800399811 /* imranUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4ADBA42B83C43800399811 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4ADB882B83C43600399811 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4ADB8F2B83C43600399811;
+			remoteInfo = imran;
+		};
+		EF4ADBAE2B83C43800399811 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4ADB882B83C43600399811 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4ADB8F2B83C43600399811;
+			remoteInfo = imran;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF4ADB902B83C43600399811 /* imran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imran.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4ADB932B83C43600399811 /* imranApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imranApp.swift; sourceTree = "<group>"; };
+		EF4ADB952B83C43600399811 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF4ADB972B83C43600399811 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EF4ADB992B83C43800399811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4ADB9B2B83C43800399811 /* imran.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = imran.entitlements; sourceTree = "<group>"; };
+		EF4ADB9D2B83C43800399811 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF4ADBA32B83C43800399811 /* imranTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imranTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4ADBA72B83C43800399811 /* imranTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imranTests.swift; sourceTree = "<group>"; };
+		EF4ADBAD2B83C43800399811 /* imranUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imranUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4ADBB12B83C43800399811 /* imranUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imranUITests.swift; sourceTree = "<group>"; };
+		EF4ADBB32B83C43800399811 /* imranUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imranUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4ADB8D2B83C43600399811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4ADBA02B83C43800399811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4ADBAA2B83C43800399811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF4ADB872B83C43600399811 = {
+			isa = PBXGroup;
+			children = (
+				EF4ADB922B83C43600399811 /* imran */,
+				EF4ADBA62B83C43800399811 /* imranTests */,
+				EF4ADBB02B83C43800399811 /* imranUITests */,
+				EF4ADB912B83C43600399811 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4ADB912B83C43600399811 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4ADB902B83C43600399811 /* imran.app */,
+				EF4ADBA32B83C43800399811 /* imranTests.xctest */,
+				EF4ADBAD2B83C43800399811 /* imranUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4ADB922B83C43600399811 /* imran */ = {
+			isa = PBXGroup;
+			children = (
+				EF4ADB932B83C43600399811 /* imranApp.swift */,
+				EF4ADB952B83C43600399811 /* ContentView.swift */,
+				EF4ADB972B83C43600399811 /* Item.swift */,
+				EF4ADB992B83C43800399811 /* Assets.xcassets */,
+				EF4ADB9B2B83C43800399811 /* imran.entitlements */,
+				EF4ADB9C2B83C43800399811 /* Preview Content */,
+			);
+			path = imran;
+			sourceTree = "<group>";
+		};
+		EF4ADB9C2B83C43800399811 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF4ADB9D2B83C43800399811 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF4ADBA62B83C43800399811 /* imranTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4ADBA72B83C43800399811 /* imranTests.swift */,
+			);
+			path = imranTests;
+			sourceTree = "<group>";
+		};
+		EF4ADBB02B83C43800399811 /* imranUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4ADBB12B83C43800399811 /* imranUITests.swift */,
+				EF4ADBB32B83C43800399811 /* imranUITestsLaunchTests.swift */,
+			);
+			path = imranUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4ADB8F2B83C43600399811 /* imran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4ADBB72B83C43800399811 /* Build configuration list for PBXNativeTarget "imran" */;
+			buildPhases = (
+				EF4ADB8C2B83C43600399811 /* Sources */,
+				EF4ADB8D2B83C43600399811 /* Frameworks */,
+				EF4ADB8E2B83C43600399811 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imran;
+			productName = imran;
+			productReference = EF4ADB902B83C43600399811 /* imran.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4ADBA22B83C43800399811 /* imranTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4ADBBA2B83C43800399811 /* Build configuration list for PBXNativeTarget "imranTests" */;
+			buildPhases = (
+				EF4ADB9F2B83C43800399811 /* Sources */,
+				EF4ADBA02B83C43800399811 /* Frameworks */,
+				EF4ADBA12B83C43800399811 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4ADBA52B83C43800399811 /* PBXTargetDependency */,
+			);
+			name = imranTests;
+			productName = imranTests;
+			productReference = EF4ADBA32B83C43800399811 /* imranTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF4ADBAC2B83C43800399811 /* imranUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4ADBBD2B83C43800399811 /* Build configuration list for PBXNativeTarget "imranUITests" */;
+			buildPhases = (
+				EF4ADBA92B83C43800399811 /* Sources */,
+				EF4ADBAA2B83C43800399811 /* Frameworks */,
+				EF4ADBAB2B83C43800399811 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4ADBAF2B83C43800399811 /* PBXTargetDependency */,
+			);
+			name = imranUITests;
+			productName = imranUITests;
+			productReference = EF4ADBAD2B83C43800399811 /* imranUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4ADB882B83C43600399811 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EF4ADB8F2B83C43600399811 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EF4ADBA22B83C43800399811 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EF4ADB8F2B83C43600399811;
+					};
+					EF4ADBAC2B83C43800399811 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EF4ADB8F2B83C43600399811;
+					};
+				};
+			};
+			buildConfigurationList = EF4ADB8B2B83C43600399811 /* Build configuration list for PBXProject "imran" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4ADB872B83C43600399811;
+			productRefGroup = EF4ADB912B83C43600399811 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4ADB8F2B83C43600399811 /* imran */,
+				EF4ADBA22B83C43800399811 /* imranTests */,
+				EF4ADBAC2B83C43800399811 /* imranUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4ADB8E2B83C43600399811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4ADB9E2B83C43800399811 /* Preview Assets.xcassets in Resources */,
+				EF4ADB9A2B83C43800399811 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4ADBA12B83C43800399811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4ADBAB2B83C43800399811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4ADB8C2B83C43600399811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4ADB962B83C43600399811 /* ContentView.swift in Sources */,
+				EF4ADB982B83C43600399811 /* Item.swift in Sources */,
+				EF4ADB942B83C43600399811 /* imranApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4ADB9F2B83C43800399811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4ADBA82B83C43800399811 /* imranTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4ADBA92B83C43800399811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4ADBB42B83C43800399811 /* imranUITestsLaunchTests.swift in Sources */,
+				EF4ADBB22B83C43800399811 /* imranUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4ADBA52B83C43800399811 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4ADB8F2B83C43600399811 /* imran */;
+			targetProxy = EF4ADBA42B83C43800399811 /* PBXContainerItemProxy */;
+		};
+		EF4ADBAF2B83C43800399811 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4ADB8F2B83C43600399811 /* imran */;
+			targetProxy = EF4ADBAE2B83C43800399811 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF4ADBB52B83C43800399811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF4ADBB62B83C43800399811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EF4ADBB82B83C43800399811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = imran/imran.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"imran/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = imran.imran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF4ADBB92B83C43800399811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = imran/imran.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"imran/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = imran.imran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF4ADBBB2B83C43800399811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = imran.imranTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imran.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/imran";
+			};
+			name = Debug;
+		};
+		EF4ADBBC2B83C43800399811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = imran.imranTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imran.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/imran";
+			};
+			name = Release;
+		};
+		EF4ADBBE2B83C43800399811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = imran.imranUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = imran;
+			};
+			name = Debug;
+		};
+		EF4ADBBF2B83C43800399811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = imran.imranUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = imran;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4ADB8B2B83C43600399811 /* Build configuration list for PBXProject "imran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4ADBB52B83C43800399811 /* Debug */,
+				EF4ADBB62B83C43800399811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4ADBB72B83C43800399811 /* Build configuration list for PBXNativeTarget "imran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4ADBB82B83C43800399811 /* Debug */,
+				EF4ADBB92B83C43800399811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4ADBBA2B83C43800399811 /* Build configuration list for PBXNativeTarget "imranTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4ADBBB2B83C43800399811 /* Debug */,
+				EF4ADBBC2B83C43800399811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4ADBBD2B83C43800399811 /* Build configuration list for PBXNativeTarget "imranUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4ADBBE2B83C43800399811 /* Debug */,
+				EF4ADBBF2B83C43800399811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4ADB882B83C43600399811 /* Project object */;
+}
